@@ -6,6 +6,7 @@ This project show how reinforcement learning works with the help of Deep Q Learn
  - gym- For the environment
  - matplotlib- To plot the data
  - tkinter- For GUI
+ - keras- Building Neural Network
  ### To run the program
 1. Clone the repository
     `git clone https://github.com/kashish2909/reinforcement_learning.git`
