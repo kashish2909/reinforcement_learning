@@ -80,7 +80,7 @@ def run(environment):
         while not done:
             action=choose_action(env,model,state,get_epsilon(e))
             next_state,reward,done,_=env.step(action)
-            #env.render()
+            env.render()
             next_state=preprocess_state(env,next_state)
             remember(state,action,reward,next_state,done)
             state=next_state
